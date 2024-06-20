@@ -1,0 +1,17 @@
+全局窗口：window1 = (209,335,727,853)
+pause窗口：window1 = (759,785,805,853)
+敌军数量窗口：window1 = (959,369,1055,385)
+我方坦克存在检测窗口：window1 = (209,335,727,853) 即全局
+我方坦克数量窗口：window1 = 1.(759,653,805,685)  2.(959,384,1055,405)
+基地检测窗口：window1 = (462,826,475,853)
+
+tank_train.py为为训练代码；
+screen_enemy.py用来检测敌方坦克数量；
+screen_global.py用来以后卷积神经网络和dqn作为输入使用；
+screen_mytank.py通过检测像素块来判断我方坦克是否存在；
+screen_num_rec.py为检测我方坦克数量；
+screen_start_pause.py为开始，停止，取消停止操作脚本；
+screen_test.py为窗口对象函数；
+DQN_Class.py为dqn类；
+directkey.py为动作；
+getkeys.py为获取键盘列表
